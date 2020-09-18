@@ -32,5 +32,5 @@ insert  into  test3  (id,  name)  values  (5,  'Bangalore');
 insert  into  test1  (id,  name)  values  (6,  'DevOps');  
 insert  into  test1  (id,  name)  values  (7,  'Shubham');
 --rollback DELETE FROM test1 WHERE id IN (6,7);
---changeset harika:7 
+--changeset harika:8
 ALTER  TABLE  test1  CHANGE  name  full_name  INT  COMMENT  'A String';
