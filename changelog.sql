@@ -35,3 +35,4 @@ insert  into  test1  (id,  name)  values  (7,  'Shubham');
 --changeset harika:8
 ALTER TABLE test1
   RENAME COLUMN name TO first_name;
+--rollback ALTER TABLE test1 RENAME COLUMN first_name TO name;
